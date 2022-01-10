@@ -1,0 +1,57 @@
+ *{border: solid red 1px}
+
+
+
+
+
+/* Main css */
+
+.Header, .Hero {
+    display: flex;
+    background-color: #96CEB4;  
+}
+.Logo, .Main-text {
+    font-family: 'Wendy One';
+    color: #FFEEAD ;
+    text-shadow: 3px 3px 2px #FFAD60;
+    
+    Margin: 15px;
+}
+
+.Logo {
+    font-size: 50px;
+    flex: 1;
+}
+.Main-text { 
+    font-size: 35px;
+    color:antiquewhite;
+    text-align: center;
+}
+
+.Links, a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: monospace;
+    color:antiquewhite;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px;
+}
+
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Left {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+} 
+.Papaya {
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}

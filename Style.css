@@ -1,57 +1,103 @@
- *{border: solid red 1px}
+  {border: solid red 1px}
 
-
-
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+}
 
 
 /* Main css */
 
 .Header, .Hero {
     display: flex;
-    background-color: #96CEB4;  
+    background-color: #96CEB4;
+    padding:0px 150px; 
+    
 }
 .Logo, .Main-text {
     font-family: 'Wendy One';
     color: #FFEEAD ;
     text-shadow: 3px 3px 2px #FFAD60;
-    
-    Margin: 15px;
+        Margin: 15px;
 }
-
 .Logo {
     font-size: 50px;
     flex: 1;
+    text-align:center;
 }
 .Main-text { 
     font-size: 35px;
     color:antiquewhite;
     text-align: center;
 }
-
 .Links, a{
     display: flex;
     align-items: center;
     gap: 15px;
-    font-family: monospace;
     color:antiquewhite;
     font-size: 20px;
     font-weight: 800;
     margin: 15px;
 }
-
 .Hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    }
 .Left {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-} 
+    text-align: center;
+    } 
 .Papaya {
     height: 300px;
     padding-left: 100px;
     padding-right: 100px;
+}
+.buttonpapaya {
+    padding: 10px;
+    background-color: transparent;
+    border:solid antiquewhite 5px;
+    border-radius: 15px;
+    color: antiquewhite;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+ 
+/* Information css */
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 50px;
+    gap: 30px;
+}
+.Informationheader {
+    font-family:'Wendy One' ;
+    color: #96CEB4;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+.Papayas {
+width: 200px;
+height: 200px;
+border: #96CEB4 solid 10px;
+border-radius: 10px;
+box-shadow: #FFAD60 5px 5px 0px;
+}
+
+.Pequeñotexto {
+    width: 200px;
+    padding-top: 15px;
+    text-align: center; 
+}
+
+/* Quote css */
+
+.Quote {
+    background-color: #FFAD60
 }
